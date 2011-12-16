@@ -1,0 +1,15 @@
+# Caminho do diretório da aplicação.
+# Altere para o caminho do projeto.
+POISSON_PATH=${HOME}/Desenv/progpar/mpi/pde/poisson_2d
+MESH2D_PATH=${HOME}/Desenv/progpar/mpi/mesh2d
+
+# Compilador e flags de compilação.
+# Altere conforme necessário.
+CPP=g++
+MPICPP=mpicxx
+CPP_FLAGS=-ansi -Wall -O2
+LD_FLAGS=-lm -lpthread
+
+# Isso não precisa ser alterado
+OBJ_PATH=${MESH2D_PATH}/obj
+
